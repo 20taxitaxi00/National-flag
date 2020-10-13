@@ -1,0 +1,18 @@
+.main {
+	height: 200px;
+	width: 300px;
+	background-color: #fff;
+	border: 1px solid #000;
+}
+
+.main:after {
+	display: block;
+	content: "";
+	position: relative;
+	top: 25%;
+	left: 33%;
+	height: 100px;
+	width: 100px;
+	background-color: red;
+	border-radius: 100%;
+}
